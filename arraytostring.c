@@ -10,6 +10,7 @@ int main() {
 
 
         for (int i = 0; i < len; i++) {
+            // or buffer[i] = str[i];
             strncat(buffer, &str[i], 1);
         }
 
